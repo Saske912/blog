@@ -31,7 +31,7 @@ export default function PostPage(props: {
       <Container>
         <BlogHeader title={title} level={2} />
         {preview && !post ? (
-          <PostTitle>Loading…</PostTitle>
+          <PostTitle>Загрузка…</PostTitle>
         ) : (
           <>
             <article>
